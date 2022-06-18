@@ -69,7 +69,7 @@
       background: var(--cyan);
       opacity: 0.5;
     }
-    h4 {
+    .caption {
       font-size: 18px;
       font-weight: 600;
       color: var(--White);
@@ -77,7 +77,7 @@
       margin-left: 1rem;
       cursor: pointer;
     }
-    h4:hover, .uname:hover { color: var(--cyan); }
+    .caption:hover, .uname:hover { color: var(--cyan); }
     .paragraph {
       clear: left;
       color: var(--softblue);
@@ -129,11 +129,12 @@
     }
     header { font-size: 1rem; text-align: center; color: var(--softblue); margin: 0 auto;}
     header a { color: var(--White); }
+    h1 { display: none; }
   </style>
 </head>
 <body>
     <header class="attribution">
-      <h1></h1>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      <h1>Suraj</h1>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
         Coded by <a href="https://github.com/surajhadage">Suraj Hadage</a>.
     </header>
     <main>
@@ -143,9 +144,9 @@
           <img class="hoverimg" src="images/icon-view.svg" alt="">
         </div>
       </figure>
-      <h4>
+      <p class="caption">
           Equilibrium #3429
-      </h4>
+      </p>
       
       <p class="paragraph">Our equilibrium collection promots balance and calm.</p>
       <p class="price">
